@@ -2,11 +2,11 @@
 
 SASS Watch Command:
 
-`sass --watch styles/main.scss:styles/main.css`
+`sass --watch SASS/main.scss:styles/main.css`
 
 ## Directory Contents:
 
-### Vendors
+### Vendor
 Contains all the CSS files from external libraries and frameworks – Normalize, Bootstrap, jQueryUI, etc.
 
 ### Base

@@ -8,7 +8,8 @@ To install Gulp, we should have a Node.js environment prepared. If you do not ha
 	2. Include gulp in the project and save as a dependency in the package.json by running `npm install gulp --save-dev`.
 
 ### Install Modules
-
-`npm install gulp-sass --save-dev`
-`npm install gulp-concat --save-dev`
+Rememeber to install modules that are required in the file.
+Example:
+- `npm install gulp-sass --save-dev`
+- `npm install gulp-concat --save-dev`
 

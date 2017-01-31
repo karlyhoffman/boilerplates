@@ -10,7 +10,7 @@ SASS Watch Command:
 Contains all the CSS files from external libraries and frameworks – Normalize, Bootstrap, jQueryUI, etc.
 
 ### Base
-Holds base style code for the projects
+Holds main styles code for projects
 
 ### Layout
 Everything laying out of the site or application – header, footer, navigation, sidebar

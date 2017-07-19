@@ -3,7 +3,8 @@
 1.  `npm install`
 
 2.	create `.jshintrc` and `.gitignore` files in the root directory:
-``` .jshintrc
+``` 
+// .jshintrc
 {
   "node": true,
   "browser": true,
@@ -32,7 +33,8 @@
 }
 ```
 
-``` .gitignore
+``` 
+// .gitignore
 # Gulp Sass Base
 # http://www.karlyhoffman.com
 # @author Karly Hoffman

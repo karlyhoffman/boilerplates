@@ -6,7 +6,8 @@
 
 
 
-``` .jshintrc 
+``` 
+// .jshintrc 
 
 {
   "node": true,
@@ -37,7 +38,8 @@
 ```
 
 
-```  .gitignore
+```  
+// .gitignore
 
 # Gulp Sass Base
 # http://www.karlyhoffman.com

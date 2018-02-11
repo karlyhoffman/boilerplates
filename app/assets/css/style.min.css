@@ -1,7 +1,7 @@
 /*!
  * ProjectName
  * Project Title
- * http://www.karlyhoffman.com
+ * https://karlyhoffman.com
  * @author Karly Hoffman
  * @version 1.0.5
  * Copyright 2018. MIT licensed.

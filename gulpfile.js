@@ -1,4 +1,5 @@
 var gulp = require('gulp'),
+    babel = require('gulp-babel'),
     path = require("path"),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps'),
@@ -85,6 +86,7 @@ gulp.task('js',function(){
   gulp.src('src/js/*.js')
     .pipe(cache('linting'))
     .pipe(jshint('.jshintrc'))
+    .pipe(babel({ presets: ['env']}))
     //.pipe(jshint.reporter('jshint-stylish'))
     .pipe(header(banner, { package : package }))
     .pipe(gulp.dest('app/assets/js'))

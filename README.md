@@ -5,10 +5,8 @@
 2.	create `.jshintrc` and `.gitignore` files in the root directory:
 
 
-
+In the `.jshintrc` file: 
 ``` 
-// .jshintrc 
-
 {
   "node": true,
   "browser": true,
@@ -37,10 +35,8 @@
 }
 ```
 
-
+In the `.gitignore` file: 
 ```  
-// .gitignore
-
 # Gulp Sass Base
 # http://www.karlyhoffman.com
 # @author Karly Hoffman
